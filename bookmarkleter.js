@@ -4,7 +4,7 @@ const { transform } = require( 'babel-standalone' );
 
 // URI-encode only a subset of characters. Most user agents are permissive with
 // non-reserved characters, so don't obfuscate more than we have to.
-const specialCharacters = [ '%', '"', '<', '>', '#', '@', ' ', '\\&', '\\?' ];
+const specialCharacters = [ '%', '"', '<', '>', '#', '@', ' ', '\\&', '\\?', '\\\\' ];
 
 // CDN URL for jQuery.
 const jQueryURL = 'https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js';
